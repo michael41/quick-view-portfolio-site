@@ -1,0 +1,417 @@
+body {
+    background-image:url("../Images/krabiiii.png");
+    background-repeat: no-repeat;
+    background-size: 100% 1370px;
+}
+
+html {
+    height: 100%
+}
+
+
+.row
+{
+max-width:100%;	
+}
+
+.ykboxtitle
+{
+	text-align:center;
+}
+
+.ykbutton {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #bbbbfb;
+  font-family:ar; 
+}
+
+.ykbutton:hover {
+	/*opacity:0.5;*/
+	/*color: #1EC9FF;*/
+	color: #000000;
+	font-weight:bold;
+	}
+
+.ykbutton:active {
+  box-shadow: 0 5px #bbbbfb;
+  transform: translateY(4px);
+}
+
+
+button:hover {
+    background-color: transparent !important;
+}
+
+button:focus {
+    background-color: transparent !important;
+}
+
+
+.yk_home_page_wrapper
+{
+padding-top:25px;	
+}
+
+.ykboxtitle
+{
+	/*border:1px solid black;*/
+}
+
+.ykcontentcolumn
+{
+	/*border:1px solid red;*/
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;	
+}
+
+.ykcontent_innercontent
+{
+	padding-top: 2%;
+	padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+	background:rgba(255,255,255,0.5);
+	
+}
+
+.mon
+{
+text-align:center;	
+}
+
+
+/*Custom Font*/
+/*Overpass*/
+@font-face {
+    font-family: 'overpassregular';
+    src: url('../Fonts/Overpass/overpass_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Overpass/overpass_regular-webfont.woff2') format('woff2'),
+         url('../Fonts/Overpass/overpass_regular-webfont.woff') format('woff'),
+         url('../Fonts/Overpass/overpass_regular-webfont.ttf') format('truetype'),
+         url('../Fonts/Overpass/overpass_regular-webfont.svg#overpassregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*StCharles*/
+  @font-face {
+    font-family: 'sc';
+    src: url('../Fonts/StCharles/stchd___-webfont.eot');
+    src: url('../Fonts/StCharles/stchd___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/StCharles/stchd___-webfont.woff2') format('woff2'),
+         url('../Fonts/StCharles/stchd___-webfont.woff') format('woff'),
+         url('../Fonts/StCharles/stchd___-webfont.ttf') format('truetype'),
+         url('../Fonts/StCharles/stchd___-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Arch Rival*/
+  @font-face {
+    font-family: 'ar';
+    src: url('../Fonts/ArchRival/sf_arch_rival-webfont.eot');
+    src: url('../Fonts/ArchRival/sf_arch_rival-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/ArchRival/sf_arch_rival-webfont.woff2') format('woff2'),
+         url('../Fonts/ArchRival/sf_arch_rival-webfont.woff') format('woff'),
+         url('../Fonts/ArchRival/sf_arch_rival-webfont.ttf') format('truetype'),
+         url('../Fonts/ArchRival/sf_arch_rival-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Its Ad Zoke*/
+  @font-face {
+    font-family: 'its';
+    src: url('../Fonts/Itsadzoke/itsadzoke-046-webfont.eot');
+    src: url('../Fonts/Itsadzoke/itsadzoke-046-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Itsadzoke/itsadzoke-046-webfont.woff2') format('woff2'),
+         url('../Fonts/Itsadzoke/itsadzoke-046-webfont.woff') format('woff'),
+         url('../Fonts/Itsadzoke/itsadzoke-046-webfont.ttf') format('truetype'),
+         url('../Fonts/Itsadzoke/itsadzoke-046-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Kavoon*/
+  @font-face {
+    font-family: 'kav';
+    src: url('../Fonts/Kavoon/kavoon-regular-webfont.eot');
+    src: url('../Fonts/Kavoon/kavoon-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Kavoon/kavoon-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/Kavoon/kavoon-regular-webfont.woff') format('woff'),
+         url('../Fonts/Kavoon/kavoon-regular-webfont.ttf') format('truetype'),
+         url('../Fonts/Kavoon/kavoon-regular-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Cantarell*/
+  @font-face {
+    font-family: 'canta';
+    src: url('../Fonts/Cantarell/cantarell-regular-webfont.eot');
+    src: url('../Fonts/Cantarell/cantarell-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Cantarell/cantarell-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/Cantarell/cantarell-regular-webfont.woff') format('woff'),
+         url('../Fonts/Cantarell/cantarell-regular-webfont.ttf') format('truetype'),
+         url('../Fonts/Cantarell/cantarell-regular-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Pacifico*/
+  @font-face {
+    font-family: 'pac';
+    src: url('../Fonts/Pacifico/pacifico-webfont.eot');
+    src: url('../Fonts/Pacifico/pacifico-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/Pacifico/pacifico-webfont.woff2') format('woff2'),
+         url('../Fonts/Pacifico/pacifico-webfont.woff') format('woff'),
+         url('../Fonts/Pacifico/pacifico-webfont.ttf') format('truetype'),
+         url('../Fonts/Pacifico/pacifico-webfont.svg#sc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.titlefont
+{
+font-family: sc; color: white; font-size:25px;
+}
+
+.mainbodyfont
+{
+font-family: canta;	
+}
+
+.or_font
+{
+font-family: overpassregular;	
+}
+
+.yk_subheading {
+    font-family: ar;
+}
+
+.monlogo
+{
+	cursor:pointer;
+}
+
+
+.monlogodiv
+{
+	text-align:center;
+	margin-bottom: 25px;
+}
+
+
+.rotating_banner_images img
+{
+		height:250px;	
+		margin-left:20%;
+}
+
+.yk_content_with_banner
+{
+	height:520px;
+}
+
+
+.slides_small
+{
+cursor:pointer; 	
+}
+
+/*-------------------------------------*/
+
+/*Background opacity when larger images are shown*/
+.yk_home_page_wrapper2 {
+    background: rgba(255,255,255,0.5);
+	height:815px;
+}
+
+.yk_content_with_banner2 {
+    height: 700px;
+}
+
+/*-------------------------------------*/
+
+
+.slides_big_outer_div {
+    height: 430px;
+}
+
+.next_previous {
+	cursor:pointer; 
+	width: 50%;
+}
+
+
+.x_button, .non_pm_x_button
+{
+    width: 30%;
+	cursor:pointer; 
+}
+
+.x_div
+{
+	text-align:right;
+}
+
+.next
+{
+	margin-top: 50px;
+}
+
+.next_prevz_cancel
+{
+
+}
+
+.next_and_previous_div
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ykcontent_innercontent p {
+    font-size: 14px;
+}
+
+.ykmorecontent
+{
+margin-bottom: 25px;
+}
+
+.ykmorecontent h4 {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: overpassregular;
+	cursor:pointer; 
+}
+
+.yk_more_pics_outer_div {
+    box-shadow: 0 0 50px #33ffcc;
+	cursor:url("../Images/hammer-1.png"), default;
+}
+
+.yk_more_pics_outer_div:active {
+   cursor:url("../Images/hammer-2.png"), default;
+   }
+
+.ykcontentcolumn_bigger {
+   /* height: 940px;*/
+}
+
+.more_section_highlighted_link
+{
+    box-shadow: 0 0 50px #33ffcc;
+    background: #3abec2;
+    background: -webkit-linear-gradient( #3abec2, #1824a3);
+    background: -o-linear-gradient( #3abec2, #1824a3);
+    background: -moz-linear-gradient( #3abec2, #1824a3);
+    border-radius: 15px;
+}
+
+.ykllink {
+    font-family: pac;
+    color: #ffffff;
+    cursor: pointer;
+	font-size: 20px;
+}
+
+.more_links_outer_row_1 {
+    margin-top: 30px !important;
+}
+
+.more_links_outer_row_2 {
+    margin-bottom: 25px !important;
+}
+
+.yk_cvimage
+{
+text-align:center;
+cursor:pointer;	
+}
+
+.ykcontent_innercontent a {
+    color: #ffffff;
+}
+
+.schoolspace_sites_links p {
+    text-align: center;
+}
+
+.schoolspace_sites_links a
+{
+	color:#000;
+}
+
+.morelink:hover
+{
+color:#000000;	
+}
+
+#yksmallerlogo
+{
+cursor:pointer; 	
+}
+
+.divthing
+{
+margin-bottom:45px;	
+}
+
+.yk_more_pics_outer_div {
+    height: 400px;
+}
+
+.ykmore_innercontent {
+   
+}
+
+
+.yksmallerlink
+{
+    font-size:12px;
+}
+
+
+.ykmore_other_pics_2, .ykmore_other_pics_3,  .ykmore_other_pics_4, .ykmore_other_pics_5, .ykmore_other_pics_6
+{
+    display:none;
+}
+
+.ykmore_other_pics_details_2, .ykmore_other_pics_details_3, .ykmore_other_pics_details_4, .ykmore_other_pics_details_5, .ykmore_other_pics_details_6
+{
+    display:none;
+}
+
+.yk_opd_heading {
+    color: #d90909;
+    font-weight: bold;
+    font-family: sc;
+    font-size: 20px;
+}
+
+span.ykmosg {
+    font-size: 12px !important;
+    cursor: pointer !important;
+}
+
+
+span.ykmosg_highlighted {
+    font-weight:bold;
+    color:#d90909;
+    text-decoration:underline;
+}
+
