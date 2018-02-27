@@ -1,2 +1,2 @@
 # quick-view-portfolio-site
-A quick view portfolio site which displays my work and projects, etc. 
+A natively built, custom made one page portfolio site which displays my work, using front-end code such as HTML, CSS, Foundation, JavaScript, jQuery and jQuery UI. 
